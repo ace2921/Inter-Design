@@ -1,6 +1,133 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+.content{
+    /* border: 3px solid black; */
+    height: 150vh;
+    display: flex;
+    position: relative;
+}
+.nav{
+    border: 3px solid purple;
+    height: 150vh;
+    position: sticky;
+    flex: 0.8;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 70px;
+}
+
+h2{
+    color: red;
+    font-weight: 500;
+    font-size: 55px;
+}
+
+hr{
+    width: 7%;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 7px;
+    height: 10px;
+}
+.bodyContent{
+    /* border: 3px solid red; */
+    height: 150vh;
+    flex: 3;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.image{
+    /* border: 3px solid red; */
+    margin: 30px;
+    height: 350px;
+    display: flex;
+}
+.div1{
+    border: 3px solid blue;
+    height: 350px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1 img{
+    height: 345px;
+}
+.div2{
+    border: 3px solid rgb(28, 28, 146);
+    height: 350px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div2 img{
+    height: 345px;
+}
+
+.image2{
+    border: 3px solid red;
+    margin: 30px;
+    height: 250px;
+    display: flex;
+}
+.div3{
+    border: 3px solid green;
+    height: 250px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div4{
+    border: 3px solid greenyellow;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image3{
+    border: 3px solid orangered;
+    margin: 30px;
+    height: 250px;
+    display: flex;
+}
+
+
+.div5{
+    border: 2px solid cyan;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div6{
+    border: 2px solid rgb(255, 6, 159);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serve{
+    border: 2px solid olivedrab;
+    height: 68vh;
+}
+
+.design{
+    border: 2px solid peru;
+    height: 90vh;
+    margin-top: 97px;
 }
