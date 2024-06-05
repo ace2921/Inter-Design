@@ -126,8 +126,39 @@ hr{
     height: 68vh;
 }
 
+
+p{
+    font-size: 18px;
+}
+
+
 .design{
     border: 2px solid peru;
-    height: 90vh;
+    height: 150vh;
     margin-top: 97px;
+}
+
+.designers{
+    border: 3px solid greenyellow;
+    height: 80vh;
+    display: flex;
+}
+.designer1{
+    border: 3px solid goldenrod;
+    height: 70vh;
+    width: 33.33%; 
+    filter: saturate(20%);
+    background-color: rgb(230, 230, 230);
+    margin: 0 7px;
+}
+.designer1 p{
+    font-size: 25px;
+    padding-left: 20px;
+}
+#ccc{
+    color: grey;
+    font-size: 17px;
+}
+#c{
+    font-size: 15px;
 }
