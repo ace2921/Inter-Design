@@ -34,7 +34,7 @@ h2{
 
 hr{
     width: 7%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: red;
     border-radius: 7px;
     height: 10px;
@@ -53,7 +53,7 @@ hr{
     display: flex;
 }
 .div1{
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     height: 350px;
     width: 50%;
     display: flex;
@@ -64,7 +64,7 @@ hr{
     height: 345px;
 }
 .div2{
-    border: 3px solid rgb(28, 28, 146);
+    /* border: 3px solid rgb(28, 28, 146); */
     height: 350px;
     width: 50%;
     display: flex;
@@ -76,13 +76,13 @@ hr{
 }
 
 .image2{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     margin: 30px;
     height: 250px;
     display: flex;
 }
 .div3{
-    border: 3px solid green;
+    /* border: 3px solid green; */
     height: 250px;
     width: 50%;
     display: flex;
@@ -90,7 +90,7 @@ hr{
     justify-content: center;
 }
 .div4{
-    border: 3px solid greenyellow;
+    /* border: 3px solid greenyellow; */
     width: 50%;
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@ hr{
 
 
 .image3{
-    border: 3px solid orangered;
+    /* border: 3px solid orangered; */
     margin: 30px;
     height: 250px;
     display: flex;
@@ -107,14 +107,14 @@ hr{
 
 
 .div5{
-    border: 2px solid cyan;
+    /* border: 2px solid cyan; */
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .div6{
-    border: 2px solid rgb(255, 6, 159);
+    /* border: 2px solid rgb(255, 6, 159); */
     width: 50%;
     display: flex;
     align-items: center;
@@ -122,7 +122,7 @@ hr{
 }
 
 .serve{
-    border: 2px solid olivedrab;
+    /* border: 2px solid olivedrab; */
     height: 68vh;
 }
 
@@ -133,19 +133,19 @@ p{
 
 
 .design{
-    border: 2px solid peru;
-    height: 150vh;
+    /* border: 2px solid peru; */
+    height: 130vh;
     margin-top: 97px;
 }
 
 .designers{
-    border: 3px solid greenyellow;
-    height: 80vh;
+    /* border: 3px solid greenyellow; */
+    height: 70vh;
     display: flex;
 }
 .designer1{
-    border: 3px solid goldenrod;
-    height: 70vh;
+    /* border: 3px solid goldenrod; */
+    height: 60vh;
     width: 33.33%; 
     filter: saturate(20%);
     background-color: rgb(230, 230, 230);
@@ -161,4 +161,111 @@ p{
 }
 #c{
     font-size: 15px;
+}
+
+.pack{
+    /* border: 4px solid brown; */
+    height: 130vh;
+   
+    
+}
+.packItems{
+    /* border: 4px solid orangered; */
+    height: 80vh;
+    display: flex;
+}
+.basic{
+    /* border: 4px solid rgb(28, 15, 211); */
+    height: 100vh;
+    width: 50%;
+    margin-right: 7px; 
+    background-color: rgb(230, 230, 230);
+}
+.pro{
+    /* border: 4px solid rgb(81, 255, 0); */
+    height: 100vh;
+    width: 50%;
+    margin-left: 7px;
+    background-color: rgb(230, 230, 230);
+}
+.Basic{
+    /* border: 4px solid rgb(28, 15, 211); */
+    height: 20vh;
+    width: 100%;
+    margin-right: 7px; 
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.Pro{
+    /* border: 4px solid rgb(28, 15, 211); */
+    height: 20vh;
+    width: 100%;
+    margin-right: 7px; 
+    background-color: rgb(247, 23, 23);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: #fff;
+}
+#a{
+    font-size: 25px;
+}
+#tre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    border: 1px solid rgb(207, 204, 204);
+}
+#tre1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    border-bottom: 1px solid rgb(207, 204, 204);
+}
+.big{
+    font-size: 35px;
+    border-top: 1px solid rgb(207, 204, 204);
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 220px;
+    margin-top: 10px;
+    height: 50px;
+    width: 100px;
+    font-size: 17px;
+    border: none;
+}
+#btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 220px;
+    margin-top: 10px;
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    /* border: 1px solid black; */
+    font-size: 17px;
+    color: #fff;
+    border: none;
+}
+
+#btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+ #btn1:hover{
+    background-color: #000;
 }
